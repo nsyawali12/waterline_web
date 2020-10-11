@@ -14,12 +14,13 @@ body {
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #bbdefb, #0069c0);
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
     padding: 0 !important;
 }
 
 .navbar-brand {
     padding-left: 20px;
+    color: #fff !important;
 }
 
 
@@ -49,4 +50,19 @@ body {
 
 .navbar-toggler {
     outline: none !important;
+}
+
+
+/* Banner Section */
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
 }
