@@ -75,3 +75,19 @@ body {
 .bottom-img {
     width: 100%;
 }
+
+
+/* Service Section */
+
+#services {
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
