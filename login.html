@@ -28,15 +28,89 @@
 
     <!-- font awesome from bootstraps -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- css from the original login -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css'>
 </head>
 
 <body>
     <!-- Add your site or application content here -->
 
-    <!-- <h1> LOGIN FORM</h1> -->
+
+    <div id="container" class="container">
 
 
-    <!-- Partial -->
+        <!-- Sign In Container -->
+        <div id="sign-in" class="form-container sign-in-container">
+            <form action="#">
+                <h1> Masuk Akun </h1>
+
+                <!-- <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+                <!-- <span>or use your account</span> -->
+
+                <input class="form-input" type="email" placeholder="Email" />
+                <input class="form-input" type="password" placeholder="Password" />
+                <a href="#"> Lupa Password?</a>
+                <button> MasuK </button>
+
+            </form>
+        </div>
+
+        <!-- Sign Up Container -->
+        <div id="sign-up" class="form-container sign-up-container">
+            <form action="#">
+                <h1>Daftar Akun</h1>
+
+                <!-- <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+
+                <input class="form-input" type="text" placeholder="Nama Lengkap">
+                <input class="form-input" type="email" placeholder="Email">
+                <input class="form-input" type="password" placeholder="Password">
+                <button> Daftar </button>
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay-container">
+            <div class="overlay">
+
+
+                <!-- Overlay on Sign In -->
+                <div class="overlay-panel overlay-right">
+                    <h1> Hello, Friend! </h1>
+                    <p> Enter your personal details and start journey with us </p>
+                    <button class="ghost" id="signUp"> Daftar Akun </button>
+                </div>
+
+                <!-- Overlay Signup  -->
+                <div class="overlay-panel overlay-left">
+                    <h1> Welcome Back !</h1>
+                    <p> To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn"> Masuk Akun </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- nanti ganti footernya -->
+    <footer>
+        <p>
+            Created <i class="fa fa-heart"></i> by
+            <a target="_blank" href="#">Supi </a>
+        </p>
+    </footer>
+
+
+
+
 
     <!-- JS For Login -->
     <script src="js/login.js"></script>
