@@ -276,6 +276,13 @@ figure {
     text-align: center;
 }
 
+.p-img {
+    font-size: 14px;
+    color: #222;
+    display: block;
+    text-align: justify;
+}
+
 .conf-air {
     font-size: 13px;
     color: #222;
