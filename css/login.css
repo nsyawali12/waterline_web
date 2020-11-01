@@ -193,8 +193,8 @@ input {
 
 .overlay {
     /* background: -webkit-linear-gradient(to right, #0369B3, #1F83C6); */
-    background: linear-gradient(to right, #0369B3, #1F83C6, #3B9BD6);
-    background-image: url("/img/login_signup.png"), linear-gradient(to right, #0369B3, #1F83C6, #3B9BD6);
+    /* background: linear-gradient(to right, #0369B3, #1F83C6, #3B9BD6); */
+    background-image: url('../img/login_signup.png'), linear-gradient(to right, #0369B3, #1F83C6, #3B9BD6);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
