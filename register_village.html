@@ -89,36 +89,86 @@
             <div class="container">
                 <div class="regist-content">
                     <div class="regist-form">
-                        <h2 class="form-title"> Daftar </h2>
+                        <h2 class="form-title"> Daftar Data Desa </h2>
                         <form method="POST" class="register-form" id="register-form">
                             <!-- kalau berhasil nanti ubah ajah bagian ini -->
 
                             <div class="form-group">
                                 <!-- masukkin icon dari bootstrap atau dari template -->
-                                <label for="name"><i></i></label>
-                                <input type="text" name="name" id="name" placeholder="Your Name">
+                                <label for="desa"><i></i></label>
+                                <input type="text" name="name" id="nama-desa" placeholder="Nama Desa">
+                            </div>
+
+                            <!-- Data Form Regist yang sebelumnya buat referensi -->
+
+                            <!-- <div class="form-group"> -->
+                            <!-- masukkin icon dari bootstrap atau dari template -->
+                            <!-- <label for="email"><i></i></label> -->
+                            <!-- <input type="email" name="email" id="email" placeholder="Your Email"> -->
+                            <!-- </div> -->
+
+                            <!-- <div class="form-group"> -->
+                            <!-- <label for="pass"><i></i></label> -->
+                            <!-- <input type="password" name="pass" id="pass" placeholder="Password" /> -->
+                            <!-- </div> -->
+
+                            <!-- <div class="form-group"> -->
+                            <!-- <label for="re-pass"> <i></i> </label> -->
+                            <!-- <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"> -->
+                            <!-- </div> -->
+
+                            <!-- <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div> -->
+
+                            <!-- form regist line -->
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="camat"><i></i></label>
+                                <input type="text" name="name" id="nama-camat" placeholder="Nama Kecamatan">
                             </div>
 
                             <div class="form-group">
                                 <!-- masukkin icon dari bootstrap atau dari template -->
-                                <label for="email"><i></i></label>
-                                <input type="email" name="email" id="email" placeholder="Your Email">
+                                <label for="kab"><i></i></label>
+                                <input type="text" name="name" id="nama-kab" placeholder="Nama Kabupaten">
                             </div>
 
                             <div class="form-group">
-                                <label for="pass"><i></i></label>
-                                <input type="password" name="pass" id="pass" placeholder="Password" />
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="dusun"><i></i></label>
+                                <input type="number" name="number" id="jum-dusun" placeholder="Jumlah Dusun">
                             </div>
 
                             <div class="form-group">
-                                <label for="re-pass"> <i></i> </label>
-                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="rw"><i></i></label>
+                                <input type="number" name="number" id="jum-rw" placeholder="Jumlah RW">
                             </div>
 
                             <div class="form-group">
-                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="rt"><i></i></label>
+                                <input type="number" name="number" id="jum-rt" placeholder="Jumlah RT">
                             </div>
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="kk"><i></i></label>
+                                <input type="number" name="number" id="jum-kk" placeholder="Jumlah Kepala Keluarga">
+                            </div>
+
+                            <!-- Sementara -->
+
+                            <div class="form-group">
+                                <!-- <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" /> -->
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span> Apakah Memiliki Mata Air Yang Terjangkau? <a href="#" class="term-service"></a></label>
+                                <input type="radio" name="yes" value="yes" id="conf-mata-air" class="conf-air" checked> Ya
+                                <input type="radio" name="no" value="no" id="conf-mata-air" class="conf-air"> Tidak
+                            </div>
+
 
                             <div class="form-group form-button">
                                 <input type="submit" name="regist" id="regist" class="form-regist" value="Daftar" />

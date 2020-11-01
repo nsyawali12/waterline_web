@@ -276,6 +276,11 @@ figure {
     text-align: center;
 }
 
+.conf-air {
+    font-size: 13px;
+    color: #222;
+}
+
 .term-service {
     font-size: 13px;
     color: #222;
@@ -402,6 +407,11 @@ input[type=checkbox]:not(old):checked+label>span:before {
 }
 
 .agree-term {
+    display: inline-block;
+    width: auto;
+}
+
+.conf-air {
     display: inline-block;
     width: auto;
 }
