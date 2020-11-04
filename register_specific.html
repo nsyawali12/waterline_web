@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>form_daftar_spesifik</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- css for index landing page -->
+    <link rel="stylesheet" href="css/register.css">
+
+    <!-- css bootstraps -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font awesome from bootstraps -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <meta name="theme-color" content="#fafafa">
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Add your site or application content here -->
+
+    <!-- this section is for navbar from bootstraps -->
+    <section id="nav-bar">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- kalau udah ada logo nanti si sumi nya ganti ajah jadi <img> logonya-->
+            <a class="navbar-brand" href="#">SuPi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                        <!-- di CONTACT US ini tempat masukkin data form -->
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- Navbar done -->
+
+    <!-- Code Section About Form In Here -->
+
+    <div class="main-form">
+        <!-- regist = section signup -->
+        <section id="registration">
+            <div class="container">
+                <div class="regist-content">
+                    <div class="regist-form">
+                        <h2 class="form-title"> Daftar Data Desa </h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <!-- kalau berhasil nanti ubah ajah bagian ini -->
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="rw"><i></i></label>
+                                <input type="text" name="name" id="nama-rw" placeholder="Nama RW">
+                            </div>
+
+                            <!-- form regist line -->
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="rt"><i></i></label>
+                                <input type="number" name="number" id="jumlah-rt" placeholder="Jumlah RT">
+                            </div>
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="kk"><i></i></label>
+                                <input type="number" name="number" id="jumlah-kk" placeholder="Jumlah Kepala Keluarga">
+                            </div>
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="min"><i></i></label>
+                                <input type="number" name="number" id="sumur-min" placeholder="Kedalaman Sumur Minimal">
+                            </div>
+
+                            <div class="form-group">
+                                <!-- masukkin icon dari bootstrap atau dari template -->
+                                <label for="max"><i></i></label>
+                                <input type="number" name="number" id="sumur-max" placeholder="Kedalaman Sumur Maksimal">
+                            </div>
+
+                            <!-- Sementara -->
+
+                            <div class="form-group">
+                                <!-- <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" /> -->
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span> Apakah Memiliki Mata Air Yang Terjangkau? <a href="#" class="term-service"></a></label>
+                                <input type="radio" name="yes" value="yes" id="conf-mata-air" class="conf-air" checked> Ya
+                                <input type="radio" name="no" value="no" id="conf-mata-air" class="conf-air"> Tidak
+                            </div>
+
+
+                            <div class="form-group form-button">
+                                <input type="submit" name="regist" id="regist" class="form-regist" value="Daftar" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="regist-img">
+                        <figure><img src="img/data_input_sumur_bor.png" alt="data kedesaan"></figure>
+                        <p class="p-img"> Lipsum </p>
+                        <!-- <a href="#" class="regist-image-link">I am already register</a> -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Finish of all the form problem -->
+
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/jquery/jquery.min.js"></script>
+
+    <!-- JS From Bootstraps 4 -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
