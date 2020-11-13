@@ -35,85 +35,61 @@
 
 <body>
     <!-- Add your site or application content here -->
+    <div class="split-screen">
+        <div class="left-screen">
+            <form>
+                <div class="copy">
+                    <h2> Login </h1>
 
+                        <div class="sign-container">
+                            <!-- Link sama yang login -->
+                            <p> Still don't have an account?
+                                <a href="#">
+                                    <strong> Sign Up </strong>
+                                </a>
+                            </p>
 
-    <div id="container" class="container">
+                        </div>
 
+                        <div class="input-container email">
+                            <!-- usemail = User Email -->
+                            <label for="uemail"> Email </label>
+                            <input id="uemail" name="uemail" type="email" placeholder="Masukkan Email">
+                        </div>
 
-        <!-- Sign In Container -->
-        <div id="sign-in" class="form-container sign-in-container">
-            <form action="#">
-                <h1> Masuk Akun </h1>
+                        <div class="input-container password">
+                            <!-- upass = user password -->
+                            <label for="upass"> Password </label>
+                            <input id="upass" name="upass" type="password" placeholder="Masukkan Password">
+                            <!-- Icon Eyes -->
+                            <i class="far fa-eye-slash"></i>
+                        </div>
 
-                <!-- <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div> -->
-                <!-- <span>or use your account</span> -->
-
-                <input class="form-input" type="email" placeholder="Email" />
-                <input class="form-input" type="password" placeholder="Password" />
-                <a href="#"> Lupa Password?</a>
-                <button class="btn-sign"> Masuk </button>
-
+                        <button class="login-btn" type="submit">
+                            Login
+                        </button>
+                </div>
             </form>
+
         </div>
 
-        <!-- Sign Up Container -->
-        <div id="sign-up" class="form-container sign-up-container">
-            <form action="#">
-                <h1>Daftar Akun</h1>
-
-                <!-- <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div> -->
-
-                <input class="form-input" type="text" placeholder="Nama Lengkap">
-                <input class="form-input" type="email" placeholder="Email">
-                <input class="form-input" type="password" placeholder="Password">
-                <button> Daftar </button>
-            </form>
-        </div>
-
-        <!-- Overlay -->
-        <div class="overlay-container">
-            <div class="overlay">
-
-
-                <!-- Overlay on Sign In -->
-                <div class="overlay-panel overlay-right">
-                    <h1> Hello, Friend! </h1>
-                    <p> Enter your personal details and start journey with us </p>
-                    <button class="ghost" id="signUp"> Daftar Akun </button>
-                </div>
-
-                <!-- Overlay Signup  -->
-                <div class="overlay-panel overlay-left">
-                    <h1> Welcome Back !</h1>
-                    <p> To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn"> Masuk Akun </button>
-                </div>
+        <div class="right-screen">
+            <div class="copy">
+                <h1> Welcome to Supi </h1>
+                <p> Perpipaan dengan SuPi Cepat dan Dalam </p>
             </div>
         </div>
+
     </div>
 
-    <!-- nanti ganti footernya -->
-    <footer>
-        <p>
-            Created <i class="fa fa-heart"></i> by
-            <a target="_blank" href="#">Supi </a>
-        </p>
-    </footer>
+
 
 
 
 
 
     <!-- JS For Login -->
-    <script src="js/login.js"></script>
+    <!-- <script src="js/login.js"></script> -->
 
     <!-- Boilerplate Stuff -->
     <p>Hello world! This is HTML5 Boilerplate.</p>
