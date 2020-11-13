@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: homizio;
+    src: url("../fonts/homizio/medium.ttf");
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'homizio', sans-serif;
 }
 
 #nav-bar {
@@ -75,6 +80,12 @@ body {
     text-align: center;
 }
 
+.center-supi h4 {
+    font-family: 'homizio', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
 .promo-title {
     font-size: 40px;
     font-weight: 600;
@@ -115,9 +126,14 @@ body {
     padding: 20px;
 }
 
+.services h1 {
+    font-family: 'homizio', sans-serif;
+}
+
 .services h4 {
     padding: 5px;
     margin-top: 25px;
+    font-family: 'homizio', sans-serif;
 }
 
 .title::before {

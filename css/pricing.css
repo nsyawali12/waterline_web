@@ -1,10 +1,15 @@
+@font-face {
+    font-family: homizio;
+    src: url("../fonts/homizio/medium.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'homizio', sans-serif;
 }
 
 #nav-bar {
@@ -197,7 +202,7 @@ body #pricing {
     color: #222;
     background-color: #f8f8f8;
     font-weight: 400;
-    font-family: Poppins;
+    font-family: 'homizio', sans-serif;
     /* font masih blm bekerja */
 }
 
