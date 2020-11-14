@@ -54,7 +54,7 @@ a:hover {
 }
 
 .left-screen {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0.5)), url("../img/undraw_loving_it_y27c.png");
+    background-image: url("../img/kiri2.png");
     background-size: cover;
 }
 
@@ -193,6 +193,19 @@ label {
     cursor: pointer;
 }
 
+.btn-ghost {
+    border-radius: 20px;
+    border: 1px solid #0369B3;
+    background-color: #fff;
+    color: #0369B3;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
 @media screen and (min-width: 900px) {
     .split-screen {
         flex-direction: row;
@@ -203,5 +216,14 @@ label {
         display: flex;
         width: 50%;
         height: auto;
+    }
+    .right-screen .copy h2 {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .right-screen .copy h2 {
+        padding-top: 20px;
     }
 }
